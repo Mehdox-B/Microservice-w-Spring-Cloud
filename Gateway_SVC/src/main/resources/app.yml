@@ -1,0 +1,13 @@
+##--------Do Not use '-' Symbol in Creating The Application Names , It Will Cause Name Resolutions Problems----##
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: inventory-route
+          uri: lb://INVENTORY-SERVICE
+          predicates:
+            - Path=/products_api/products/**
+        - id: customer-route
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/api/customers/**
