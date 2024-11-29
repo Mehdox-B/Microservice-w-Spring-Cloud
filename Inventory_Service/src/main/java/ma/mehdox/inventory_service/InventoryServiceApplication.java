@@ -21,25 +21,21 @@ public class InventoryServiceApplication {
 		return args ->{
 			//-----------Save products to in memory database--------------//
 			productRepository.save(Product.builder()
-							.id(UUID.randomUUID().toString())
 							.name("Lenovo E15 Gen 2")
 							.price(10000.00)
 							.quantity(21)
 					.build());
 			productRepository.save(Product.builder()
-					.id(UUID.randomUUID().toString())
 					.name("Lenovo T14 S")
 					.price(9000.00)
 					.quantity(19)
 					.build());
 			productRepository.save(Product.builder()
-					.id(UUID.randomUUID().toString())
 					.name("HP ELITEBOOK GEN 6")
 					.price(12000.00)
 					.quantity(9)
 					.build());
 			productRepository.save(Product.builder()
-					.id(UUID.randomUUID().toString())
 					.name("Lenovo X1 Gen 9")
 					.price(20000.00)
 					.quantity(5)
