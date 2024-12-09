@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/Gateway_SVC/pom.xml" />
         <option value="$PROJECT_DIR$/Discovery_SVC/pom.xml" />
         <option value="$PROJECT_DIR$/Billing_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Config_SVC/pom.xml" />
       </list>
     </option>
   </component>
